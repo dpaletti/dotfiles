@@ -7,3 +7,6 @@ source ~/.bashrc
 
 # use pure-prompt preset
 starship preset pure-preset -o ~/.config/starship.toml
+
+# set default editor
+export EDITOR=vim
