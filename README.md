@@ -3,7 +3,7 @@
 Some configs I'd rather not lose:
 - [fish.config](./fish.config): fish shell configuration for a reasonably working shell. This is meant to be used with [ghostty](https://ghostty.org/) terminal. 
 - [gitconfig](./gitconfig): quality of life enhancements for git
-- [jjconfig](./jjconfig.toml): configs akin to those applied in git when (rarely) applicable, mainly aligns tools for merge and diffs
+- [jjconfig](./jjconfig.toml): configs akin to those applied to git, mainly aligns tools for merge and diffs
 
 These configs depend on the following packages:
 - [VSCodium](https://vscodium.com/): open source VSCode build, used as a merge editor by git and jj
