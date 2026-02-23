@@ -1,4 +1,4 @@
-# configs
+# dotfiles
 Some configs I'd rather not lose:
 - [fish.config](./fish.config): fish shell configuration for a reasonably working shell. This is meant to be used with [ghostty](https://ghostty.org/) terminal. 
 - [gitconfig](./gitconfig): quality of life enhancements for git
