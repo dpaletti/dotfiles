@@ -1,0 +1,32 @@
+[user]
+name = "Daniele Paletti"
+email = "mail@dpaletti.com"
+
+[ui]
+# running 'jj' is like running 'jj log'
+default-command = "log"
+
+# structural diffs with difftastic
+diff.tool = "difft"
+
+# a nice merge editor in codium (VSCode open source build)
+merge-editor = "codium"
+
+# make less pass difftastic colors along and use UTF-8
+pager = pager = { command = ["less", "-FRX"], env = { LESSCHARSET = "utf-8" } }
+
+# automatically append signed-off-by (DCO)
+should-sign-off = true
+
+[merge-tools.difft]
+program = "difft"
+diff-args = ["--color=always", "$left", "$right"]
+
+[merge-tools.mergiraf]
+program = "mergiraf"
+merge-args = ["merge", "$base", "$left", "$right", "-o", "$output", "--fast"]
+merge-conflict-exit-codes = [1]
+conflict-marker-style = "git"
+
+[git]
+colocate = true

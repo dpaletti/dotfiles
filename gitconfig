@@ -1,0 +1,20 @@
+[user]
+	email = mail@dpaletti.com
+	name = Daniele Paletti
+[diff]
+	algorithm = histogram
+	external = difft
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[merge]
+	conflictstyle = zdiff3
+	tool = codium
+[pull]
+	ff = only
+[branch]
+	sort = -committerdate
+[merge "mergiraf"]
+	name = mergiraf
+	driver = mergiraf merge --git %O %A %B -s %S -x %X -y %Y -p %P -l %L
