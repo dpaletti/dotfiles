@@ -13,7 +13,7 @@ diff.tool = "difft"
 merge-editor = "codium"
 
 # make less pass difftastic colors along and use UTF-8
-pager = pager = { command = ["less", "-FRX"], env = { LESSCHARSET = "utf-8" } }
+pager = { command = ["less", "-FRX"], env = { LESSCHARSET = "utf-8" } }
 
 # automatically append signed-off-by (DCO)
 should-sign-off = true
